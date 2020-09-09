@@ -1,12 +1,11 @@
 <?php
-// Tiedot, joilla käyttäjä kirjautuu sisään.
-$name     = 'Mikko';
-$password = 'Banaani_Kasvaa_Puussa';
 
-// Normaalisti tiedot tulisivat tietokannasta eikä koskaan suoraan koodista.
-$user = [
-    'id'       => 2020,
-    'name'     => 'Mikko',
-    'password' => '15d541988dff8be2f055d14ab44dfcc9adadb231',
+$users = [
+    ['id' => 99, 'name' => 'Mikko'],
+    ['id' => 63, 'name' => 'Saara'],
+    ['id' => 30, 'name' => 'Tiina'],
+    ['id' => 63, 'name' => 'Matti'],
+    ['id' => 2, 'name' => 'Alma'],
+    ['id' => 187, 'name' => 'Sami'],
+    ['id' => 56, 'name' => 'Tuula'],
 ];
-

@@ -1,11 +1,18 @@
 <?php
 
-$users = [
-    ['id' => 99, 'name' => 'Mikko'],
-    ['id' => 63, 'name' => 'Saara'],
-    ['id' => 30, 'name' => 'Tiina'],
-    ['id' => 63, 'name' => 'Matti'],
-    ['id' => 2, 'name' => 'Alma'],
-    ['id' => 187, 'name' => 'Sami'],
-    ['id' => 56, 'name' => 'Tuula'],
-];
+function first_function($word): string
+{
+    return $word . " World!";
+}
+
+function second()
+{
+    return 123.30;
+}
+
+function third()
+{
+    return ['A', 'B', $letter];
+}
+
+// Tähän tulee fourth()
