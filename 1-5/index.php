@@ -6,4 +6,5 @@ echo $value . " ";
 echo "<br>";
 $b=array_reverse($ar);
 foreach($b as $value)
-echo $value . " ";
+echo $value . " "
+;
