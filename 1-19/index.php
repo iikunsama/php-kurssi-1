@@ -22,4 +22,3 @@ function custom_sort($a, $b) {
 }
 
 usort($users, "custom_sort");
-printf ;
